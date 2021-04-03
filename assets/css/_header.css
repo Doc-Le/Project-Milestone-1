@@ -1,0 +1,40 @@
+header {
+  min-height: 75px;
+}
+
+header,
+.bg-light {
+  background-color: #1f363dff !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #cfe0c3ff;
+}
+
+#menu li {
+  margin: 10px 0;
+  margin-left: 15px;
+  line-height: 25px;
+}
+
+#menu a,
+#menu a:visited {
+  color: #cfe0c3ff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+#menu a:hover {
+  color: #70a9a1ff;
+  border-bottom: 3px solid #70a9a1ff;
+}
+
+.navbar-toggler-icon {
+  color: #cfe0c3ff;
+}
+
+.nav-item {
+  margin-left: 0.8em;
+}

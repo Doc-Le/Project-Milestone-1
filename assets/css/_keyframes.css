@@ -1,0 +1,35 @@
+  @keyframes html {
+    to {
+      width: 90%;
+    }
+  }
+  
+  @keyframes css {
+    to {
+      width: 80%;
+    }
+  }
+  
+  @keyframes js {
+    to {
+      width: 75%;
+    }
+  }
+  
+  @keyframes ng {
+    to {
+      width: 60%;
+    }
+  }
+    
+  @keyframes Bst {
+    to {
+      width: 90%;
+    }
+  }
+    
+  @keyframes Pyt {
+    to {
+      width: 90%;
+    }
+  }
