@@ -1,13 +1,18 @@
 footer {
-  background-color: #1f363d;
-  color: white;
+  background-color: #1f363dff;
+  color: #cfe0c3ff;
   min-height: 120px;
   margin: 0;
 }
 
+footer h5 {
+  color: #cfe0c3ff;
+  text-transform: uppercase;
+}
+
 .cv-pdf i {
   font-size: 18px;
-  color: #fafafa;
+  color:#70a9a1ff;
   text-align: center;
   padding-left: 5px;
   transition: all 0.35s ease-in-out;
@@ -17,7 +22,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-  color: #e84610;
+  color: #cfe0c3ff;
 }
 
 .social-links {
@@ -32,8 +37,8 @@ footer {
   font-size: 13px;
   line-height: 7px;
   text-align: center;
-  color: #fafafa;
-  background: #8f8f8f;
+  color: #1f363dff;
+  background: #70a9a1ff;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -41,9 +46,18 @@ footer {
 }
 
 .social-links li a i:hover {
-  background: #e84610;
+  background: #cfe0c3ff;
 }
 
 #footer-details {
   padding: 20px;
+}
+
+
+.outer-space-crayola {
+  color: #1f363dff;
+  color: #40798cff;
+  color: #70a9a1ff;
+  color: #9ec1a3ff;
+  color: #cfe0c3ff;
 }
