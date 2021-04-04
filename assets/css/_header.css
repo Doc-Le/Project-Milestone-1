@@ -19,7 +19,7 @@ header,
 
 #menu a,
 #menu a:visited {
-  color: #cfe0c3ff;
+  color: #70a9a1ff;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 300;
@@ -27,8 +27,8 @@ header,
 }
 
 #menu a:hover {
-  color: #70a9a1ff;
-  border-bottom: 3px solid #70a9a1ff;
+  color: #cfe0c3ff;
+  border-bottom: 3px solid  #cfe0c3ff;
 }
 
 .navbar-toggler-icon {
