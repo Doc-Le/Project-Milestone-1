@@ -109,6 +109,10 @@ section {
   padding-top: 85px;
 }
 
+section p {
+  padding: 0 15px 15px;
+}
+
 #contact {
   height: calc(100vh - 25px);
 }
@@ -147,10 +151,12 @@ section {
 }
 
 .profile-image {
-  padding-top: 10px;
-  /* margin-left: -5px;
-  margin-right: 5px; */
-  text-align: right;
+  padding: 10px 0 30px;
+  text-align: center;
+}
+
+.profile-image > img.img-fluid {
+  max-width: 75%;
 }
 
 ul.skills {
@@ -217,3 +223,4 @@ li.list-inline-item {
   color: #9ec1a3ff;
   color: #cfe0c3ff;
 }
+

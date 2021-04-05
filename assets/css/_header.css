@@ -28,7 +28,7 @@ header,
 
 #menu a:hover {
   color: #cfe0c3ff;
-  border-bottom: 3px solid  #cfe0c3ff;
+  border-bottom: 3px solid #cfe0c3ff;
 }
 
 .navbar-toggler-icon {
@@ -37,4 +37,28 @@ header,
 
 .nav-item {
   margin-left: 0.8em;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #cfe0c3ff;
+  border: none;
+  margin-right: 10px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-container {
+  width: 100%;
+  text-align: right;
+}
+.title {
+  position: absolute;
+  top: 0;
+  z-index: 1111;
+}
+
+#main-nav-bar {
+  min-width: 310px;
 }
