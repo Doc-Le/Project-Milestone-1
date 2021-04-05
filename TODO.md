@@ -13,6 +13,6 @@
 - [x] work in Footer section 
 - [x] clean css
 - [] About me style
-- [] Betweem  contact/skills
+- [x] Betweem  contact/skills
 - [] Read.me
 - [] Mobile/Ipad friendly
