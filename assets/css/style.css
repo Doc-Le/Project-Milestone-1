@@ -1,6 +1,6 @@
-@import url("_keyframes.css");
-@import url("_header.css");
-@import url("_footer.css");
+@import url("./_keyframes.css");
+@import url("./_header.css");
+@import url("./_footer.css");
 
 /* roboto-mono-regular - latin */
 @font-face {
