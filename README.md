@@ -8,15 +8,20 @@ The implementation strives to be simple and free of unnecessary dependencies.
 ## Goals
 
 - Easy authoring Portfolio website created in HTML,Css and js
-- Ordering of posts by publish date or content date
-- customization of site layout with main navegation menu  
+- Customization of site layout with main navegation menu
+- Scrolling down navegation menu with 4 different pages, including about me, projects, skills and contact.  
 - High resolution (2x) support for photo blog images
-- Ability to author hidden posts and schedule a publish date
-- Ability to create posts that never show up in the timeline
--  and tagging of posts by category
 - Support for Automatic link to social media
 - Support for Automatic link Download CV in Pdf 
 - No JavaScript requirement for client browsers
+
+## Technologies
+
+Project is created with:
+* Html 5
+* Css
+* Bootstrap 5v
+* JavaScript 
 
 ## Structure
 
@@ -37,14 +42,3 @@ The implementation strives to be simple and free of unnecessary dependencies.
 | Project      | Home Page                                    |
 |--------------|----------------------------------------------|
 | Bootstrap    | <https://getbootstrap.com/>                  |
-
-## Contributing
-
-- Open issue, discuss proposal
-- Fork and clone repository
-- Review changes
-- Send pull request
-
-## License
-
-[MIT](LICENSE)
