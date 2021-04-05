@@ -27,9 +27,9 @@ Project is created with:
 
 - `/assets` Stores all asset files
 - `/assets/css/bootstrap` Stores CSS Bootstrap library files
-- `/assets/css/_footer.css` Implementation of main HTML CSS footer
-- `/assets/css/_header.css` Implementation of main HTML CSS header
-- `/assets/css/_keyframes.css` Implementation of key frame CSS functions
+- `/assets/css/footer.css` Implementation of main HTML CSS footer
+- `/assets/css/header.css` Implementation of main HTML CSS header
+- `/assets/css/keyframes.css` Implementation of key frame CSS functions
 - `/assets/css/style.css` Implementation of main HTML CSS that imports all CSS files in the main CSS folder
 - `/assets/documents` Stores document files
 - `/assets/fonts` Stores web font files
