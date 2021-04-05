@@ -12,7 +12,8 @@
 - [x] work in contact section 
 - [x] work in Footer section 
 - [x] clean css
-- [] About me style
+- [x] About me style
 - [x] Betweem  contact/skills
-- [] Read.me
-- [] Mobile/Ipad friendly
+- [x] Read.me
+- [x] Mobile/Ipad friendly
+- [x] Project Deployment 
