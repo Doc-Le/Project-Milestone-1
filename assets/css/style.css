@@ -102,9 +102,9 @@ li {
 }
 
 section {
-  min-height: 515px;
-  height: calc(100vh - 175px);
-  padding-top: 100px;
+  min-height: 530px;
+  height: calc(100vh - 195px);
+  margin-top: 75px;
 }
 
 section p {
