@@ -10,6 +10,10 @@ footer h5 {
   text-transform: uppercase;
 }
 
+footer li {
+  margin: 0;
+}
+
 .cv-pdf i {
   font-size: 18px;
   color:#70a9a1ff;
@@ -50,9 +54,8 @@ footer h5 {
 }
 
 #footer-details {
-  padding: 20px;
+  padding: 20px 0 0;
 }
-
 
 .outer-space-crayola {
   color: #1f363dff;
