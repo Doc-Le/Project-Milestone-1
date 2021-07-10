@@ -104,17 +104,13 @@ li {
 }
 
 section {
-  height: calc(100vh - 32px);
-  margin-top: 75px;
-  padding-top: 85px;
+  min-height: 515px;
+  height: calc(100vh - 175px);
+  padding-top: 100px;
 }
 
 section p {
   padding: 0 15px 15px;
-}
-
-#contact {
-  height: calc(100vh - 25px);
 }
 
 .contact-item {
