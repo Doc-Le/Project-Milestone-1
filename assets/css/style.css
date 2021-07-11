@@ -145,6 +145,11 @@ section p {
   width: 60%;
 }
 
+.embed-responsive iframe.embed-responsive-item {
+  width: 100%;
+  min-height: 250px;
+}
+
 .profile-image {
   padding: 10px 0 30px;
   text-align: center;
