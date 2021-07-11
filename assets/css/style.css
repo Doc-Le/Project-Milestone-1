@@ -240,6 +240,13 @@ li.list-inline-item {
   }
 }
 
+/* nexus 7 tablet */
+@media (min-width: 600px) and (min-height: 960px) { 
+  section {
+    min-height: calc(100vh - 282px);
+  }
+}
+
 /* all tablets */
 @media (min-width: 992px) {
   section {
