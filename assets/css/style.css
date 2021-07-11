@@ -102,9 +102,10 @@ li {
 }
 
 section {
-  min-height: 530px;
-  height: calc(100vh - 195px);
   margin-top: 75px;
+  margin-bottom: 15px;
+  /* all devices */
+  min-height: calc(100vh - 305px);
 }
 
 section p {
@@ -218,3 +219,25 @@ li.list-inline-item {
   color: #cfe0c3ff;
 }
 
+/* Responsive section adjustments*/
+
+/* all devices not desktop */
+@media (min-width: 768px) {
+  section {
+    min-height: calc(100vh - 282px);
+  }
+}
+
+/* ipad mini tablet */
+@media (min-width: 992px) and (min-height: 1024px) { 
+  section {
+    min-height: calc(100vh - 210px);
+  }
+}
+
+/* all tablets */
+@media (min-width: 992px) {
+  section {
+    min-height: calc(100vh - 210px);
+  }
+}
