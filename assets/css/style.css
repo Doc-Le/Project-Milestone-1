@@ -85,7 +85,7 @@ h2 {
 
 .section-heading {
   font-weight: 600;
-  margin-top: 25px;
+  margin-top: 105px;
   margin-bottom: 40px;
 }
 
@@ -104,7 +104,7 @@ li {
 }
 
 section {
-  height: calc(100vh - 160px);
+  height: calc(100vh - 32px);
   margin-top: 75px;
   padding-top: 85px;
 }
