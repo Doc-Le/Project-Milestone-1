@@ -16,32 +16,28 @@
     />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
-
   <body>
-    <header>
+    <header class="fixed-top">
       <div class="row">
-        <div class="col-lg-3">
-        </div>
+        <div class="col-lg-3"></div>
         <div class="col-lg-2">
           <h1>Leandro.</h1>
         </div>
         <div class="col-lg-4">
           <div class="d-flex flex-row-reverse">
-            <nav
-              class="navbar sticky-top navbar-expand-lg navbar-light bg-light"
-            >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <button
                 class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
+                data-bs-target="#main-nav-bar"
+                aria-controls="main-nav-bar"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse" id="main-nav-bar">
                 <ul id="menu" class="nav navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a href="#about">About</a>
@@ -60,8 +56,7 @@
             </nav>
           </div>
         </div>
-        <div class="col-lg-3">
-        </div>
+        <div class="col-lg-3"></div>
       </div>
     </header>
     <section class="container-fluid" id="about">
@@ -81,7 +76,11 @@
           </div>
         </div>
         <div class="col-lg-2 profile-image flex-row-reverse">
-          <img src="assets/images/profile-leandro.png" class="img-fluid" />
+          <img
+            src="assets/images/profile-leandro.png"
+            class="img-fluid"
+            alt="Leandro Profile Photo"
+          />
         </div>
         <div class="col-lg-3"></div>
       </div>
@@ -91,15 +90,93 @@
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <h2 class="section-heading">Projects</h2>
-          <div class="shadow p-3 mb-5 bg-body rounded">
-            "I am an allround web developer. I am a junior web developer
-            ,eventhough I'm just starting, I have good knowledge of front-end
-            techniques. I love structure and order and I also stand for quality.
-            I love spending time on fixing little details and optimizing
-            websites. Also I like working in a team, you'll learn faster and
-            much more. As the saying goes: 'two heads are better than one' Out
-            of the office you’ll find me dreaming of Basketball, playing in the
-            decks, and having fun with my family."
+          <div
+            id="projects-carousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#projects-carousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="BR Architects"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#projects-carousel"
+                data-bs-slide-to="1"
+                aria-label="The Cafe"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#projects-carousel"
+                data-bs-slide-to="2"
+                aria-label="Jane Doe - Photographer"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#projects-carousel"
+                data-bs-slide-to="3"
+                aria-label="Jane & John - Wedding"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/br-architects.jpg"
+                  class="d-block w-100"
+                  alt="BR Architects"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/the-cafe.jpg"
+                  class="d-block w-100"
+                  alt="The Cafe"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/jane-doe-photographer.jpg"
+                  class="d-block w-100"
+                  alt="Jane Doe - Photographer"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/jane-and-john-wedding.jpg"
+                  class="d-block w-100"
+                  alt="Jane & John - Wedding"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#projects-carousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#projects-carousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
         <div class="col-lg-3"></div>
@@ -156,63 +233,28 @@
               <p class="uppercase">Email:</p>
             </div>
             <div class="value">
-              <a href="mailto:leandro.arj@outlook.com">leandro.arj@outlook.com</a>
+              <a href="mailto:leandro.arj@outlook.com"
+                >leandro.arj@outlook.com</a
+              >
             </div>
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="mapouter">
-            <div class="gmap_canvas">
-              <iframe
-                width="450"
-                height="350"
-                id="gmap_canvas"
-                src="https://maps.google.com/maps?q=wicklow%20town&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-              ></iframe>
-              <style>
-                .gmap_canvas {
-                  overflow: hidden;
-                  background: none !important;
-                  height: 500px;
-                  width: 600px;
-                }
-              </style>
-            </div>
-          </div>
+          <img
+          id="google-map"
+          src="assets/images/google-map.png"
+          class="img-fluid rounded float-right"
+          alt="Google Map"
+        />
         </div>
         <div class="col-lg-3"></div>
       </div>
     </section>
     <footer class="container-fluid">
       <div id="footer-details" class="row">
-        <div class="col-sm-4">
-          <h5 class="uppercase general-sub">About</h5>
-          <p class="inline-block">
-            "I am an allround web developer. I am a junior web developer
-            ,eventhough I'm just starting, I have good knowledge of front-end
-            techniques"
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <h5 class="uppercase general-sub">Download</h5>
-          <p class="inline-block">
-            Need a printable version of my CV? Download it here.
-            <a
-              href="assets/css/cv/sample-cv.pdf"
-              target="_blank"
-              class="cv-pdf"
-            >
-              <i class="fa fa-download" aria-hidden="true"></i>
-              <span class="sr-only">Download link.</span>
-            </a>
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <h5 class="uppercase general-sub">Social</h5>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3">
+          <h5>Social</h5>
           <ul class="list-inline social-links">
             <li class="list-inline-item">
               <a target="_blank" href="#">
@@ -252,7 +294,22 @@
             </li>
           </ul>
         </div>
+        <div class="col-lg-3">
+          <h5>Download</h5>
+          <p class="inline-block">
+            Need a printable version of my CV? Download it here.
+            <a
+              href="assets/documents/cv_Leandro_De_Araujo_Junior_Developer_en_2021.pdf"
+              target="_blank"
+              class="cv-pdf"
+            >
+              <i class="fa fa-download" aria-hidden="true"></i>
+              <span class="sr-only">Download link.</span>
+            </a>
+          </p>
+        </div>
       </div>
+      <div class="col-lg-3"></div>
     </footer>
     <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
   </body>
