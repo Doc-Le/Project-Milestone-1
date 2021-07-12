@@ -1,87 +1,50 @@
-# Project Title
+# Leandro Portfolio Website
 
-Personal portifolio - Milestone Project 1 - Code Institute 
+> Personal portifolio website - Milestone Project 1 - Code Institute 
 
-## Getting Started
+`Portifolio - website` is a simple website portfolio 
+The implementation strives to be simple and free of unnecessary dependencies.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Goals
 
-### Prerequisites
+- Easy authoring Portfolio website created in HTML,Css and js
+- Ordering of posts by publish date or content date
+- customization of site layout with main navegation menu  
+- High resolution (2x) support for photo blog images
+- Ability to author hidden posts and schedule a publish date
+- Ability to create posts that never show up in the timeline
+-  and tagging of posts by category
+- Support for Automatic link to social media
+- Support for Automatic link Download CV in Pdf 
+- No JavaScript requirement for client browsers
 
-What things you need to install the software and how to install them
+## Structure
 
-```
-Give examples
-```
+- `/assets` Stores all asset files
+- `/assets/css/bootstrap` Stores CSS Bootstrap library files
+- `/assets/css/_footer.css` Implementation of main HTML CSS footer
+- `/assets/css/_header.css` Implementation of main HTML CSS header
+- `/assets/css/_keyframes.css` Implementation of key frame CSS functions
+- `/assets/css/style.css` Implementation of main HTML CSS that imports all CSS files in the main CSS folder
+- `/assets/documents` Stores document files
+- `/assets/fonts` Stores web font files
+- `/assets/images` Stores images files
+- `/assets/js/bootstrap` Stores JavaScript Bootstrap library files
+- `/index.html` Implementation of main HTML single page
 
-### Installing
+## Dependencies
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+| Project      | Home Page                                    |
+|--------------|----------------------------------------------|
+| Bootstrap    | <https://getbootstrap.com/>                  |
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+- Open issue, discuss proposal
+- Fork and clone repository
+- Review changes
+- Send pull request
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+[MIT](LICENSE)
