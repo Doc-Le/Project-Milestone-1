@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+/* palette */
+.outer-space-crayola {
+  color: #1f363dff;
+}
+.teal-blue {
+  color: #40798cff;
+}
+.green-sheen {
+  color: #70a9a1ff;
+}
+.cambridge-blue {
+  color: #9ec1a3ff;
+}
+.tea-green {
+  color: #cfe0c3ff;
+}
+/*-----------------*/
+
+html {
+  scroll-behavior: smooth;
+}
 
 .bg-color-name-title {
   background-color: #676767;
@@ -10,7 +31,6 @@
 
 .ui-menu-color-contact {
   background-color: transparent;
-  
 }
 
 .ui-menu-color-project {
@@ -25,7 +45,6 @@
   background-color: transparent;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -33,41 +52,40 @@
 }
 
 body {
-  font-family: "Exo", sans-serif;
-  color: #010914; 
+  font-family: "Roboto", sans-serif;
+  color: #010914;
 }
 
 h2 {
-  font-family: "Exo", sans-serif;
-  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
   letter-spacing: 2px;
-  color: #1f3955;
+  color: #cfe0c3ff;
 }
 
 body {
   background-image: white;
-  
 }
 
 h1,
 h2,
 h3,
 h4 {
-    margin: 0;
+  margin: 0;
 }
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
 }
 
 .inline-block {
-    display: inline-block;
+  display: inline-block;
 }
 
 .row-table {
@@ -77,19 +95,124 @@ h4 {
 .section-column {
   display: table-cell;
   padding: 0 30px 30px;
-  float: none; 
+  float: none;
 }
 
 .section-heading {
-  font-family: "Exo", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 40px;
 }
 
-.footer {
-  background-color: #525252;
-  color: #fafafa;
+body {
+  background-color: #55a2bbb5;
+  color: grey;
+  font-family: Roboto;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto 0;
+  padding: 20px;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  margin: 0 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+ul.skills > li:before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-color: rgba(54, 126, 223, 0.5);
+  border-radius: 1000px;
+}
+
+ul.skills > li:after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 15px;
+  background-color: rgba(54, 126, 223, 1);
+  border-radius: 1000px;
+  animation-duration: 0.7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+ul.skills > li.html:after {
+  animation-name: html;
+}
+
+@keyframes html {
+  to {
+    width: 90%;
+  }
+}
+
+ul.skills > li.css:after {
+  animation-name: css;
+}
+
+@keyframes css {
+  to {
+    width: 80%;
+  }
+}
+
+ul.skills > li.js:after {
+  animation-name: js;
+}
+
+@keyframes js {
+  to {
+    width: 75%;
+  }
+}
+
+ul.skills > li.ng:after {
+  animation-name: ng;
+}
+
+@keyframes ng {
+  to {
+    width: 60%;
+  }
+}
+
+ul.skills > li.Bst:after {
+  animation-name: Bst;
+}
+
+@keyframes Bst {
+  to {
+    width: 90%;
+  }
+}
+
+ul.skills > li.Pyt:after {
+  animation-name: Pyt;
+}
+
+@keyframes Pyt {
+  to {
+    width: 90%;
+  }
+}
+
+footer {
+  background-color: #1f363d;
+  color: white;
   min-height: 120px;
   margin: 0;
 }
@@ -135,4 +258,70 @@ h4 {
 
 #footer-details {
   padding: 20px;
+}
+
+section {
+  height: 1000px;
+}
+
+.contact-item {
+  margin-bottom: 20px;
+  display: block;
+  clear: both;
+}
+
+.contact-item .key,
+.contact-item .value {
+  padding-right: 8px;
+  display: inline-block;
+}
+
+.contact-item .key p,
+.contact-item .value p {
+  margin: 0;
+}
+
+.contact-item .key {
+  width: 30%;
+  margin-right: 21px;
+  padding-top: 2px;
+  vertical-align: top;
+}
+
+.contact-item .key p {
+  font-weight: 700;
+}
+
+.contact-item .value {
+  position: relative;
+  width: 60%;
+}
+
+.profile-image {
+  padding-top: 10px;
+  text-align: right;
+}
+
+.bg-light {
+  background-color: #1f363dff !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #cfe0c3ff;
+}
+
+#menu a, #menu a:visited {
+  color: #cfe0c3ff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:300;
+  font-size: .8em;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+.navbar-toggler-icon {
+  color: #cfe0c3ff;
 }
