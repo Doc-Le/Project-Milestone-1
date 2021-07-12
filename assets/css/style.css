@@ -85,7 +85,7 @@ h2 {
 
 .section-heading {
   font-weight: 600;
-  margin-top: 105px;
+  margin-top: 30px;
   margin-bottom: 40px;
 }
 
@@ -110,14 +110,7 @@ section {
 }
 
 #contact {
-  margin-bottom: -175px;
-  height: calc(100vh - 75px);
-  margin-top: 0px;
-  padding-top: 0;
-}
-
-#google-map {
-  margin-top: 90px;
+  height: calc(100vh - 25px);
 }
 
 .contact-item {
@@ -158,6 +151,10 @@ section {
   /* margin-left: -5px;
   margin-right: 5px; */
   text-align: right;
+}
+
+ul.skills {
+  padding-left: 0;  
 }
 
 ul.skills > li:before {
