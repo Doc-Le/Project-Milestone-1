@@ -6,4 +6,13 @@
 - [x] download webfont 
 - [x] work in Header html
 - [x] work in Header html
-- [ ] work in home section
+- [x] work in home section
+- [x] Work in About section
+- [x] work in Skills section
+- [x] work in contact section 
+- [x] work in Footer section 
+- [x] clean css
+- [] About me style
+- [] Betweem  contact/skills
+- [] Read.me
+- [] Mobile/Ipad friendly
