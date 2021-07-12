@@ -22,10 +22,10 @@ The implementation strives to be simple and free of unnecessary dependencies.
 
 | Page | Desktop | Tablet | Mobile |
 | ---- | ------- | ------ | ------ |
-|About|[view](/wireframe/desktop/about.png)|[view](/wireframe/tablet/about.png)|[view](/wireframe/mobile/about.png)|
-|Projects|[view](/wireframe/desktop/projects.png)|[view](/wireframe/tablet/projects.png)|[view](/wireframe/mobile/projects.png)|
-|Skills|[view](/wireframe/desktop/skills.png)|[view](/wireframe/tablet/skills.png)|[view](/wireframe/mobile/skills.png)|
-|Contact|[view](/wireframe/desktop/contact.png)|[view](/wireframe/tablet/contact.png)|[view](/wireframe/mobile/contact.png)|
+|About|[view](assets/wireframe/desktop/about.png)|[view](assets/wireframe/tablet/about.png)|[view](assets/wireframe/mobile/about.png)|
+|Projects|[view](assets/wireframe/desktop/projects.png)|[view](assets/wireframe/tablet/projects.png)|[view](assets/wireframe/mobile/projects.png)|
+|Skills|[view](assets/wireframe/desktop/skills.png)|[view](assets/wireframe/tablet/skills.png)|[view](assets/wireframe/mobile/skills.png)|
+|Contact|[view](assets/wireframe/desktop/contact.png)|[view](assets/wireframe/tablet/contact.png)|[view](assets/wireframe/mobile/contact.png)|
 
 ## Features
    
