@@ -69,16 +69,6 @@ h2 {
   color: #1f363dff;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
-.general-sub {
-  font-family: "Roboto Mono", sans-serif;
-  font-weight: 300;
-  color: white;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -108,17 +98,26 @@ h2 {
 li {
   position: relative;
   list-style: none;
-  margin: 50px 0;
+  margin: 35px 0;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 section {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 160px);
+  margin-top: 75px;
+  padding-top: 85px;
 }
 
 #contact {
-  height: calc(100vh - 325px);
+  margin-bottom: -175px;
+  height: calc(100vh - 75px);
+  margin-top: 0px;
+  padding-top: 0;
+}
+
+#google-map {
+  margin-top: 105px;
 }
 
 .contact-item {
@@ -208,4 +207,8 @@ ul.skills > li.Bst:after {
 
 ul.skills > li.Pyt:after {
   animation-name: Pyt;
+}
+
+li.list-inline-item {
+  margin-top: 5px;
 }
