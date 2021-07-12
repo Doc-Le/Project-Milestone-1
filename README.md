@@ -20,18 +20,17 @@ The implementation strives to be simple and free of unnecessary dependencies.
 
 ## Wireframes
 
-  * Home Page Wireframe - View
-
-  * Mobile Wireframe - View
-
-  * Contact Us Page Wireframe - View
+| Page | Desktop | Tablet | Mobile |
+| ---- | ------- | ------ | ------ |
+|About|[view](/wireframe/desktop/about.png)|[view](/wireframe/tablet/about.png)|[view](/wireframe/mobile/about.png)|
+|Projects|[view](/wireframe/desktop/projects.png)|[view](/wireframe/tablet/projects.png)|[view](/wireframe/mobile/projects.png)|
+|Skills|[view](/wireframe/desktop/skills.png)|[view](/wireframe/tablet/skills.png)|[view](/wireframe/mobile/skills.png)|
+|Contact|[view](/wireframe/desktop/contact.png)|[view](/wireframe/tablet/contact.png)|[view](/wireframe/mobile/contact.png)|
 
 ## Features
    
   * Responsive on all device sizes
-
   * Interactive elements
-
 
 ## Technologies Used
 
