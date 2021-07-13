@@ -4,7 +4,7 @@ footer {
   min-height: 120px;
   margin: 0;
 }
-
+/* Set background color to #cfe0c3ff */
 footer h5 {
   color: #cfe0c3ff;
   text-transform: uppercase;
@@ -13,7 +13,7 @@ footer h5 {
 footer li {
   margin: 0;
 }
-
+/* Set text color to #70a9a1ff  */
 .cv-pdf i {
   font-size: 18px;
   color:#70a9a1ff;
@@ -32,7 +32,7 @@ footer li {
 .social-links {
   padding-bottom: 15px;
 }
-
+/* social links text color to #1f363dff, background color #70a9a1ff;  */
 .social-links li a i {
   width: 32px;
   height: 32px;

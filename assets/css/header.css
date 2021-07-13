@@ -1,7 +1,7 @@
 header {
   min-height: 75px;
 }
-
+/* header color to green and white background */
 header,
 .bg-light {
   background-color: #1f363dff !important;
@@ -17,7 +17,7 @@ header,
   line-height: 25px;
   margin-left: 0.8em;
 }
-
+/* menu color to green */
 #menu .menu-item a {
   color: #70a9a1ff;
   text-decoration: none;
@@ -25,7 +25,7 @@ header,
   font-weight: 300;
   font-size: 1em;
 }
-
+/* Set menu-item-active color to  #fe0c3ff */
 #menu .menu-item.active a,
 #menu .menu-item a:hover {
   color: #cfe0c3ff;
