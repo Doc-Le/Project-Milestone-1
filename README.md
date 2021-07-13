@@ -14,7 +14,7 @@ The implementation strives to be simple and free of unnecessary dependencies.
 
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the professional.
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-* As a First Time Visitor, I want to look for information to understand what he has to offer as software development. I  also want to locate his social media links to see their followings on social media to determine how trusted and known he is.
+* As a First Time Visitor, I want to look for information to understand what he has to offer in software development. I  also want to locate his social media links to see their followings on social media to determine how trusted and known he is.
 
 ### Returning Visitor Goals
 
@@ -24,10 +24,10 @@ The implementation strives to be simple and free of unnecessary dependencies.
 
 ## Goals
 
-- Easy authoring Portfolio website created in HTML,Css and js
+- Easy authoring Portfolio website created in HTML,CSS, and js
 - Ordering of posts by publish date or content date
-- customization of site layout with main navegation menu  
-- High resolution (2x) support for photo blog images
+- customization of site layout with main navigation menu  
+- High resolution (2x) support for photo-blog images
 - Ability to author hidden posts and schedule a publish date
 - Ability to create posts that never show up in the timeline and tagging of posts by category
 - Support for Automatic link to social media
@@ -36,11 +36,11 @@ The implementation strives to be simple and free of unnecessary dependencies.
 
 ## Design
 
-  * Colour Scheme
-      The two main colours used are green and white.
+  * Color Scheme
+      The two main colors used are green and white.
 
   * Typography
-    The Roboto font is the main font used throughout the whole portifolio with Sans Serif as the fallback font.
+    The Roboto font is the main font used throughout the whole portfolio with Sans Serif as the fallback font.
   
   * Imagery
     Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
@@ -95,12 +95,12 @@ The W3C CSS Validator Services were used to validate every page of the project t
 
 There are two types of validation events: errors and warnings.
 * Errors are reported when the checked CSS does not respect the CSS recommendation.
-* Warnings do not state a problem regarding the specification. They are used to notify that some CSS-input and could lead to a strange behaviour on some user agents.
+* Warnings do not state a problem regarding the specification. They are used to notify that some CSS-input and could lead to a strange behavior on some user agents.
 
 ## Further Testing
 
 * The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhone X.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
