@@ -6,6 +6,34 @@
 `Portifolio - website` is a simple website portfolio 
 The implementation strives to be simple and free of unnecessary dependencies.
 
+## User Experience (UX)
+
+### User stories
+
+#### First Time Visitor Goals
+
+* As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the professional.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+* As a First Time Visitor, I want to look for information to understand what he has to offer as software development. I  also want to locate his social media links to see their followings on social media to determine how trusted and known he is.
+
+### Returning Visitor Goals
+
+* As a Returning Visitor, I want to find information about codding skills.
+* As a Returning Visitor, I want to find the best way to get in contact with him.
+* As a Returning Visitor, I want to find community links.
+
+## Goals
+
+- Easy authoring Portfolio website created in HTML,Css and js
+- Ordering of posts by publish date or content date
+- customization of site layout with main navegation menu  
+- High resolution (2x) support for photo blog images
+- Ability to author hidden posts and schedule a publish date
+- Ability to create posts that never show up in the timeline and tagging of posts by category
+- Support for Automatic link to social media
+- Support for Automatic link Download CV in Pdf 
+- No JavaScript requirement for client browsers
+
 ## Design
 
   * Colour Scheme
@@ -16,6 +44,7 @@ The implementation strives to be simple and free of unnecessary dependencies.
   
   * Imagery
     Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+
 
 
 ## Wireframes
@@ -32,9 +61,11 @@ The implementation strives to be simple and free of unnecessary dependencies.
   * Responsive on all device sizes
   * Interactive elements
 
-## Technologies Used
+# Technologies Used
 
-  # Languages Used
+
+  ## Languages Used
+
 
   * HTML5
   * CSS3
@@ -56,10 +87,15 @@ The implementation strives to be simple and free of unnecessary dependencies.
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+_w3c-css_ will check the compliance against CSS profile specified (CSS3 by default) and report errors and potential problems in Cascading Style Sheets.
 
-* W3C Markup Validator - Results
-* W3C CSS Validator - Results
+> Validate CSS using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdoc-le.github.io%2FProject-Milestone-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+The W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+There are two types of validation events: errors and warnings.
+* Errors are reported when the checked CSS does not respect the CSS recommendation.
+* Warnings do not state a problem regarding the specification. They are used to notify that some CSS-input and could lead to a strange behaviour on some user agents.
 
 ## Further Testing
 
@@ -68,13 +104,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Testing User Stories from User Experience Section
-  
-  * First Time Visitor Goals
+## Known Bugs
 
-    1.	Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a  Image. 
-    2.	
-    3.	
+* On some mobile devices the main Image pushes to the center of page.
+* A white gap can be seen to the bottom of the footer.
+* On Microsoft Edge and Internet Explorer Browsers, footer are pushed upwards when hovering over them.
 
 ## Deployment
 
@@ -87,19 +121,6 @@ The project was deployed to GitHub Pages using the following steps:
 * The Page will automatically refresh
 * Scroll back down through the page to locate the now published site Link in the `GitHub Pages` section
 
-## Goals
-
-- Easy authoring Portfolio website created in HTML,Css and js
-- Ordering of posts by publish date or content date
-- customization of site layout with main navegation menu  
-- High resolution (2x) support for photo blog images
-- Ability to author hidden posts and schedule a publish date
-- Ability to create posts that never show up in the timeline
--  and tagging of posts by category
-- Support for Automatic link to social media
-- Support for Automatic link Download CV in Pdf 
-- No JavaScript requirement for client browsers
-
 ## Contributing
 
 - Open issue, discuss proposal
@@ -107,10 +128,52 @@ The project was deployed to GitHub Pages using the following steps:
 - Review changes
 - Send pull request
 
-### How to Run
+### Forking the GitHub Repository
 
-* Clone the Repository
-* Pen `index.html` file to view the project in your browser
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Doc-Le/Project-Milestone-1)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/Doc-Le/Project-Milestone-1
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/Doc-Le/Project-Milestone-1.git
+> Cloning into 'Project-Milestone-1'...
+> remote: Enumerating objects: 428, done.
+> remote: Counting objects: 100% (428/428), done.
+> remote: Compressing objects: 100% (230/230), done.
+> remote: Total 428 (delta 207), reused 405 (delta 185), pack-reused 0
+> Receiving objects: 100% (428/428), 3.76 MiB | 4.00 MiB/s, done.
+> Resolving deltas: 100% (207/207), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+
+## Credits
+
+### Code
+T
+he full-screen hero image code came from this [StackOverflow](https://stackoverflow.com/) post
+
+[Bootstrap4](https://getbootstrap.com/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+[MDN Web Docs](https://developer.mozilla.org/en-US/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found Here
 
 ## Content
 
