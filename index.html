@@ -6,23 +6,28 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Portifolio - Milestone 1</title>
+    <!-- Bootstrap CDN - Latest Stable Version Bootstrap 5.0.1 minified file -->
     <link
       href="assets/css/bootstrap/bootstrap.min.css"
       rel="stylesheet"
       type="text/css"
     />
+    <!-- Font-awesome CDN - Stable Version Font-awesome 4.7.0 minified file -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       type="text/css"
     />
+    <!-- Custom stylesheets -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <!-- Header show the name and menu -->
     <header class="fixed-top d-flex flex-wrap justify-content-center">
       <div class="d-flex align-items-center mb-md-0 me-md-auto ps-4">
         <h1 class="m-0 title">Leandro.</h1>
       </div>
+      
       <ul
         id="menu"
         class="
@@ -33,6 +38,7 @@
           justify-content-center
         "
       >
+        <!-- Active link won't navigate but will show active style-->
         <li class="menu-item active">
           <a href="#"> About </a>
         </li>
@@ -47,7 +53,9 @@
         </li>
       </ul>
     </header>
+    <!-- Section feature content -->
     <section class="container-fluid" id="about">
+      <!-- Section header container -->
       <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
@@ -55,8 +63,10 @@
         </div>
         <div class="col-lg-3"></div>
       </div>
+      <!-- Section content body container -->
       <div class="row">
         <div class="col-lg-3"></div>
+        <!-- Profile image container with fluid bootstrap size -->
         <div class="col-lg-2 profile-image">
           <img
             src="assets/images/profile-leandro.png"
@@ -64,6 +74,7 @@
             alt="Leandro Profile Photo"
           />
         </div>
+        <!-- Section content text container -->
         <div class="col-lg-4">
           <p>
             I am an allround web developer. I am a junior web developer
@@ -82,9 +93,11 @@
         <div class="col-lg-3"></div>
       </div>
     </section>
+    <!-- footer container to show social media action buttons and download cv -->
     <footer class="container-fluid">
       <div id="footer-details" class="row">
         <div class="col-lg-1"></div>
+        <!-- Social Media links container -->
         <div class="col-lg-5">
           <h5>Social</h5>
           <ul class="list-inline social-links">
@@ -156,6 +169,7 @@
             </li>
           </ul>
         </div>
+        <!-- Download link printable cv version pdf container -->
         <div class="col-lg-5">
           <h5>Download</h5>
           <p class="inline-block">
@@ -173,6 +187,7 @@
       </div>
       <div class="col-lg-1"></div>
     </footer>
+    <!-- Bootstrap v5.0.0-beta3 local script library minified file -->
     <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>

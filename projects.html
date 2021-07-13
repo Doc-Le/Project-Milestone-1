@@ -6,23 +6,27 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Portifolio - Milestone 1</title>
+    <!-- Bootstrap CDN - Latest Stable Version Bootstrap 5.0.1 minified file -->
     <link
       href="assets/css/bootstrap/bootstrap.min.css"
       rel="stylesheet"
       type="text/css"
     />
+    <!-- Font-awesome CDN - Stable Version Font-awesome 4.7.0 minified file -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       type="text/css"
     />
+     <!-- Custom stylesheets -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header class="fixed-top d-flex flex-wrap justify-content-center">
+      <header class="fixed-top d-flex flex-wrap justify-content-center">
       <div class="d-flex align-items-center mb-md-0 me-md-auto ps-4">
         <h1 class="m-0 title">Leandro.</h1>
       </div>
+      <!-- Header show the  name and menu -->
       <ul
         id="menu"
         class="
@@ -33,6 +37,7 @@
           justify-content-center
         "
       >
+      <!-- Active link won't navigate but will show active style-->
         <li class="menu-item">
           <a href="index.html"> About </a>
         </li>
@@ -47,22 +52,32 @@
         </li>
       </ul>
     </header>
+    <!-- Section feature content -->
     <section class="container-fluid" id="projects">
+      <!-- Section header container -->
       <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <h2 class="section-heading">Projects</h2>
         </div>
+        <!-- Section content body container -->
         <div class="col-lg-3"></div>
       </div>
+      <!-- Profile image container with fluid bootstrap size -->
       <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
+          <!-- 
+            Bootstrap v5
+            Carousel component - https://getbootstrap.com/docs/5.0/components/carousel/
+            Component used to rotate project images
+          -->
           <div
             id="projects-carousel"
             class="carousel slide"
             data-bs-ride="carousel"
           >
+            <!-- Carousel project item buttons/navigator available -->
             <div class="carousel-indicators">
               <button
                 type="button"
@@ -91,6 +106,7 @@
                 aria-label="Jane & John - Wedding"
               ></button>
             </div>
+            <!-- Carousel project items available -->
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
@@ -121,6 +137,7 @@
                 />
               </div>
             </div>
+            <!-- Carousel project item buttons/navigator backward and forward -->
             <button
               class="carousel-control-prev"
               type="button"
@@ -150,12 +167,14 @@
         <div class="col-lg-3"></div>
       </div>
     </section>
+    <!-- footer container to show social media action buttons and download cv -->
     <footer class="container-fluid">
       <div id="footer-details" class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-5">
           <h5>Social</h5>
           <ul class="list-inline social-links">
+            <!-- add "Facebook" href -->
             <li class="list-inline-item">
               <a
                 target="Facebook"
@@ -167,6 +186,7 @@
                 <span class="sr-only">Facebook</span>
               </a>
             </li>
+            <!-- add "Twitter" href -->
             <li class="list-inline-item">
               <a
                 target="Twitter"
@@ -178,6 +198,7 @@
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
+            <!-- add "LinkedIn" href -->
             <li class="list-inline-item">
               <a
                 target="LinkedIn"
@@ -189,6 +210,7 @@
                 <span class="sr-only">LinkedIn</span>
               </a>
             </li>
+            <!-- add "Pinterest" href -->
             <li class="list-inline-item">
               <a
                 target="Pinterest"
@@ -200,6 +222,7 @@
                 <span class="sr-only">Pinterest</span>
               </a>
             </li>
+             <!-- add "Instagram" href -->
             <li class="list-inline-item">
               <a
                 target="Instagram"
@@ -211,6 +234,7 @@
                 <span class="sr-only">Instagram</span>
               </a>
             </li>
+            <!-- add "YouTube" href -->
             <li class="list-inline-item">
               <a
                 target="YouTube"
@@ -224,6 +248,7 @@
             </li>
           </ul>
         </div>
+        <!-- add printable cv version pdf -->
         <div class="col-lg-5">
           <h5>Download</h5>
           <p class="inline-block">
@@ -241,6 +266,7 @@
       </div>
       <div class="col-lg-1"></div>
     </footer>
+    <!-- Bootstrap v5.0.0-beta3 local script library minified file -->
     <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>
