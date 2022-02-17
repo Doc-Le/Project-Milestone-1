@@ -1,10 +1,12 @@
 # Milestoneproject-1
 
-## Personal portifolio website 
+## 🏠 [Homepage](https://doc-le.github.io/Project-Milestone-1/) 
 
 ![Alt](/images/profile-leandro.png "Portifolio")
+
 `Portifolio - website` is a simple website portfolio 
-The implementation strives to be simple and free of unnecessary dependencies.
+
+
 
 ## User Experience (UX)
 
